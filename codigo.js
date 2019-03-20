@@ -4,4 +4,4 @@ function displayCode() {
     loader.engine.document.getElementById(51761560).setValue(({"value": 54}));
 }
     
-window.onchange = joinValues;
+window.onchange = displayCode;
