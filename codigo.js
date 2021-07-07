@@ -1,7 +1,6 @@
 
-"(function() {
+function displayCode() {
 
-window.addEventListener('change', function() {
     
     var valueOne = loader.engine.document.getElementById(97744486).getProperty('value.value');
 
@@ -36,9 +35,6 @@ default: valueCode = ""; break;
 
    valueCode ="455";
        loader.engine.document.getElementById("text-00000018").setValue(({"value": valueCode}));
-
-});
-
-})();" 
-
-
+  }
+    
+window.onchange = displayCode;
