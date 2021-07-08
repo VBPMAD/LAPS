@@ -1,7 +1,7 @@
 
 function displayCode() {
     
-    var valueOne = loader.engine.document.getElementById(61871042).getProperty('value.value');
+    var valueOne = loader.engine.document.getElementById(61871077).getProperty('value.value');
 
     switch (valueOne) {
        case "ARGENTINA": valueCode = "54"; break;
@@ -16,7 +16,7 @@ case "URUGUAY":valueCode = "598"; break;
 default: valueCode = ""; break;
 }
    
-       loader.engine.document.getElementById(61871050).setValue(({"value": valueCode}));
+       loader.engine.document.getElementById(61871085).setValue(({"value": valueCode}));
   }
     
 window.onchange = displayCode;
