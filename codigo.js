@@ -15,7 +15,6 @@ case "TRINIDAD & TOBAGO":valueCode = "868"; break;
 default: valueCode = ""; break;
 }
 
-   valueCode = "455";
        loader.engine.document.getElementById(97763832).setValue(({"value": valueCode}));
   }
     
