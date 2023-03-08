@@ -1,7 +1,7 @@
 
 function displayCode() {
     
-    var valueOne = loader.engine.document.getElementById(61620992).getProperty('value.value');
+    var valueOne = loader.engine.document.getElementById(105727742).getProperty('value.value');
 
     switch (valueOne) {
  
@@ -16,7 +16,7 @@ case "HONDURAS":valueCode = "504"; break;
 default: valueCode = ""; break;
 }
 
-       loader.engine.document.getElementById(61621000).setValue(({"value": valueCode}));
+       loader.engine.document.getElementById(105727750).setValue(({"value": valueCode}));
   }
     
 window.onchange = displayCode;
