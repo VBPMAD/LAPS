@@ -1,7 +1,7 @@
 
 function displayCode() {
     
-    var valueOne = loader.engine.document.getElementById(10597563).getProperty('value.value');
+    var valueOne = loader.engine.document.getElementById(105975363).getProperty('value.value');
 
     switch (valueOne) {
        case "ARGENTINA": valueCode = "54"; break;
