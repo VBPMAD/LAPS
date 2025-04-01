@@ -2,7 +2,7 @@
 function displayCode() {
 
 switch (loader.engine.document.activeElement.id) {
-    case: 105727742
+    case 105727742:
     var valueOne = loader.engine.document.getElementById(105727742).getProperty('value.value');
 
    
@@ -18,13 +18,13 @@ default: valueCode = ""; break;
 }
    
        loader.engine.document.getElementById(105727750).setValue(({"value": valueCode}));
-  }
     break;
 case 105727749:
     var valueOne = loader.engine.document.getElementById(105727749).getProperty('value.value');
 loader.engine.document.getElementById(105727749).setValue(({"value": valueOne.toLowerCase()})); 
-}
+
       break;
+}
 }
 
     
