@@ -24,6 +24,4 @@ function displayCode() {
      break;
   }
 }
-
-    
 window.onchange = displayCode;
