@@ -1,5 +1,5 @@
 
-function displayCode() {
+function displayCodeCATP() {
 
   switch (loader.engine.document.activeElement.id) {
     case 105727742:
@@ -24,4 +24,4 @@ function displayCode() {
      break;
   }
 }
-window.onchange = displayCode;
+window.onchange = displayCodeCATP;
