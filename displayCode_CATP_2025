@@ -1,4 +1,3 @@
-
 function displayCodeCATP() {
 
   switch (loader.engine.document.activeElement.id) {
